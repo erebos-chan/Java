@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Java プロジェクト名 &apos;Additional challenges&apos; を &apos;追加課題&apos; に変更&#x0D;&#x0A;- オリジナル要素: &apos;Additional challenges&apos;&#x0D;&#x0A;- 名前変更済み要素: &apos;Additional challenges&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="Java プロジェクト &apos;Additional challenges&apos; の名前変更" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Additional challenges" name="追加課題" references="true" stamp="1464073411465" version="1.0"/>&#x0A;<refactoring comment="リソース &apos;game&apos; を削除" deleteContents="false" description="リソース &apos;game&apos; を削除" element1="/game" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1464161060685"/>
+</session>

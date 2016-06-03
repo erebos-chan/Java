@@ -1,0 +1,46 @@
+package loop;
+
+import java.util.Scanner;
+
+public class PasswardCheck {
+
+	public static void main(String[] args) {
+		// 変数の宣言
+		String pass;
+
+		// スキャナの準備
+		Scanner scan = new Scanner(System.in);
+
+		// パスワードの設定
+		pass = "abc";
+
+		passwordCheck(pass);
+		
+		System.out.println("ログイン完了");
+
+	}
+
+	static void passwordCheck(String pass) {
+		// 変数の宣言
+		int i = 0;
+		String temp;
+
+		// スキャナの準備
+		Scanner scan = new Scanner(System.in);
+		
+		//ユーザ入力
+		System.out.print("パスワードを入力>>");
+
+		//判定
+		do{
+			temp = scan.next();
+			i = i + 1;
+		}while(temp == pass|i >= 3);
+			
+			
+		}
+		
+
+	}
+
+

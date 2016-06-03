@@ -1,0 +1,15 @@
+package calculation;
+import java.util.Scanner;
+
+public class BoxSurfaceArea {
+
+	public static void main(String[] args) {
+		//ƒXƒLƒƒƒi‚Ì€”õ
+		Scanner scan = new Scanner(System.in);
+		
+		//•Ï”‚ÌéŒ¾
+		
+
+	}
+
+}

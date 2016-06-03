@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FromCelsius.java&apos; to &apos;追加課題/src/conversion&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;Test&apos;&#x0D;&#x0A;- 宛先要素: &apos;追加課題/src/conversion&apos;&#x0D;&#x0A;- オリジナル要素: &apos;wed_2016_05_11.FromCelsius.java&apos;" description="コンパイル単位をコピー" destination="=追加課題/src&lt;conversion" element1="/src&lt;wed_2016_05_11{FromCelsius.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1464073491131" units="1" version="1.0"/>
+</session>

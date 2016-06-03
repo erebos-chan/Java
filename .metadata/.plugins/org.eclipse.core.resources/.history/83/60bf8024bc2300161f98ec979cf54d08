@@ -1,0 +1,46 @@
+package Switch;
+import java.util.Scanner;
+
+
+public class VendingMachine {
+
+	public static void main(String[] args) {
+		//スキャナの準備
+		Scanner scan = new Scanner(System.in);
+		
+		//変数の宣言
+		String drinkName;
+		
+		//プロンプト
+		System.out.println("ドリンクを販売します。");
+		
+		//ユーザ入力
+		System.out.println("飲みたいドリンクを入力");
+		System.out.print("スポーツドリンク:水:お茶:ジュース>>");
+		drinkName = scan.next();
+		
+		//メソッド呼び出し
+		vendingMachine(drinkName);
+		
+		//スキャナClose
+		scan.close();
+		
+
+	}
+	static void vendingMachine(String drinkName){
+		switch(drinkName){
+		case "スポーツドリンク":
+			System.out.println("スポーツドリンク出す。");
+			break;
+		case "水":
+			System.out.println("水を出す。");
+			break;
+		case "お茶":
+			System.out.println("お茶を出す。");
+			break;
+		case "ジュース":
+			System.out.println("ジュースを出す。");
+		}
+	}
+
+}
