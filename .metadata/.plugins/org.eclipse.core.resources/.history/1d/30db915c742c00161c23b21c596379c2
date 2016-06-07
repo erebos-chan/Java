@@ -1,0 +1,34 @@
+package array;
+
+public class ArrayReverse {
+
+	public static void main(String[] args) {
+	
+	//変数＆配列の宣言
+	String word[] = new String[6];
+	
+	//代入
+	word[0] = "o";
+	word[1] = "r";
+	word[2] = "a";
+	word[3] = "n";
+	word[4] = "g";
+	word[5] = "e";
+	
+	//メソッド呼び出し
+	arrayReverse(word);
+	
+
+	}
+	static void arrayReverse(String word[]){
+		String temp;
+		for(int i = 0, k = 0; i < 6; i++,k++){
+			temp = word[i];
+			word[i] = word[5 - i];
+			
+				
+		}
+		System.out.printf(word[0]);
+	}
+
+}

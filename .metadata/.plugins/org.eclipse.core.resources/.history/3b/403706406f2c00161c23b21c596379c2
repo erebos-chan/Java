@@ -1,0 +1,27 @@
+package array;
+
+import java.util.Scanner;
+
+public class ArrayMax_Method {
+
+	public static void main(String[] args) {
+		// スキャナの準備
+		Scanner scan = new Scanner(System.in);
+
+		// 変数＆配列の宣言
+		int score[] = new int[5];
+		int max = 0;
+
+		System.out.println("入力した数値の最大値を求めます。");
+		for(int i = 0; i < 5; i++ ){
+			System.out.print("整数を入力");
+			System.out.println(i + 1);
+			System.out.print("番目");
+		}
+
+		// スキャナClose
+		scan.close();
+
+	}
+
+}

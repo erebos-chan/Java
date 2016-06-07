@@ -30,6 +30,8 @@ public class ScoreStatisticsArray {
 		System.out.printf("合計『%d』", sum);
 		System.out.println();
 		System.out.printf("平均は『%d』", avg);
+		
+		scan.close();
 
 	}
 }

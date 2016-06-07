@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ArrayMax.java&apos; to &apos;Java授業(UTF-8)/src/array&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;Java授業(UTF-8)&apos;&#x0D;&#x0A;- 宛先要素: &apos;Java授業(UTF-8)/src/array&apos;&#x0D;&#x0A;- オリジナル要素: &apos;array.ArrayMax.java&apos;" description="コンパイル単位をコピー" destination="/src&lt;array" element1="/src&lt;array{ArrayMax.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1465276411001" units="1" version="1.0"/>
+</session>
