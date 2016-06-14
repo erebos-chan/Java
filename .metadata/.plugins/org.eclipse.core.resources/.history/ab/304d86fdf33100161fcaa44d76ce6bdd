@@ -1,0 +1,31 @@
+package array;
+
+public class Array_F {
+
+	public static void main(String[] args) {
+		
+		String alph[][] = {
+				  {"　","●","●","●","　"}, 
+				  {"　","●","　","　","　"}, 
+				  {"　","●","●","●","　"},
+				  {"　","●","　","　","　"},
+				  {"　","●","　","　","　"},
+				};
+		
+		
+		
+		
+				
+		for(int l = 0; l > 5; l++){
+			for(int m = 0; m > 4; m++){
+				System.out.print(alph[l][m]);
+			}
+			System.out.println();
+			
+		}
+				
+			}
+		
+	}
+
+

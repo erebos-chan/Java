@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Array_test.java&apos; to &apos;Java授業(UTF-8)/src/array&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;Test&apos;&#x0D;&#x0A;- 宛先要素: &apos;Java授業(UTF-8)/src/array&apos;&#x0D;&#x0A;- オリジナル要素: &apos;test.Array_test.java&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="コンパイル単位を移動" destination="=Java授業\(UTF-8)/src&lt;array" element1="/src&lt;test{Array_test.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1465782229696" units="1" version="1.0"/>
+</session>
