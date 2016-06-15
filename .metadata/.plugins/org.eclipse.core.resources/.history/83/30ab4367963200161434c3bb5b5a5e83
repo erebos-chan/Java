@@ -1,0 +1,62 @@
+package switch_;
+
+import java.util.Scanner;
+
+public class Dejimo {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		System.out.print("キャラクター名を入力>>");
+		String name;
+		name = scan.next(); // 名前
+		int maxhp = 10, hp = maxhp; // 最大体力,体力
+		int day = 1; // 経過日数
+		int cmd = 0; // 選択されたメニュー番号
+
+		while (hp > 0) {
+			// メニュー表示
+			System.out.println("---" + day + "日目 " + name + "の行動メニュー");
+			System.out.println("体力:" + hp + "/" + maxhp);
+			System.out.println("[1]運動 [2]勉強 [3]睡眠 [9]終了");
+			System.out.println("番号を入力してください。");
+			cmd = scan.nextInt();
+
+			if((cmd >= 0)&(cmd < 10)){	
+			switch (cmd) {
+				case 1: // 運動
+					System.out.println("***運動しました***");
+					hp = hp - 2;
+					break;
+
+				case 2: // 勉強
+					System.out.println("***勉強しました***");
+					hp = hp - 2;
+					break;
+
+				case 3: // 睡眠
+					System.out.println("***睡眠しました***");
+					if (hp < 10) {
+						hp = hp + 2;
+					}
+					break;
+
+				default: // その他
+					System.out.println("その番号はメニューにありません");
+					day--;
+					break;
+				}
+				day = day + 1;
+				System.out.println();
+
+			}
+
+			if (hp >= 0) {
+				System.out.println(name + "は" + day + "日目に力尽きた。");
+				scan.close();
+
+			}
+
+		}
+	}
+}

@@ -24,7 +24,6 @@ public class Array_F {
 				alph[i][k] = temp;
 				k = k - 1;
 			}
-		}
 		
 
 			for (int l = 0; l < 5; l++) {
@@ -39,7 +38,7 @@ public class Array_F {
 
 		}
 	
-
+}
 
 
 	

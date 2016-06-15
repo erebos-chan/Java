@@ -25,7 +25,6 @@ public class Array_F {
 				k = k - 1;
 			}
 		}
-		
 
 			for (int l = 0; l < 5; l++) {
 				for (int m = 0; m < 4; m++) {
