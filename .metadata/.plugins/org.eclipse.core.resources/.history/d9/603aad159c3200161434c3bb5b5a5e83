@@ -17,7 +17,7 @@ public class Dejimo {
 			// メニュー表示
 			System.out.println("---" + day + "日目 " + name + "の行動メニュー");
 			System.out.println("体力:" + hp + "/" + maxhp);
-			System.out.println("[1]運動 [2]勉強 [3]睡眠 [4]全回復 [5]限界突破 [8]自殺 [9]終了");
+			System.out.println("[1]運動 [2]勉強 [3]睡眠 [4]全回復 [5]限界突破 [9]終了");
 			System.out.println("番号を入力してください。");
 			cmd = scan.nextInt();
 
@@ -46,17 +46,7 @@ public class Dejimo {
 				
 				case 5:
 					System.out.println("☆★☆限界突破☆★☆");
-					if(maxhp < 100){
 					maxhp = 100;
-					}else{
-						
-					maxhp = maxhp + 100;
-					}
-					break;
-					
-				case 8:
-					System.out.println("††自殺††");
-					hp = 0;
 					break;
 					
 				case 9:
