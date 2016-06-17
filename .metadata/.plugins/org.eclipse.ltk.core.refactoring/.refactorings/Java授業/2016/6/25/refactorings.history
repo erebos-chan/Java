@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MultiTable.java&apos; to &apos;Java授業(UTF-8)/src/loop&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;Java授業&apos;&#x0D;&#x0A;- 宛先要素: &apos;Java授業(UTF-8)/src/loop&apos;&#x0D;&#x0A;- オリジナル要素: &apos;loop.MultiTable.java&apos;" description="コンパイル単位をコピー" destination="=Java授業\(UTF-8)/src&lt;loop" element1="/src&lt;loop{MultiTable.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1466125825940" units="1" version="1.0"/>
+</session>

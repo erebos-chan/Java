@@ -1,0 +1,8 @@
+package loop;
+
+public class Snippet {
+	public static void main(String[] args) {
+		System.out.printf("%5d ",i * j );
+	}
+}
+
