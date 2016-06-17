@@ -18,7 +18,6 @@ public class MultiTable_rowS {
 		colS = scan.nextInt();
 		System.out.print("終了する列数を入力>>");
 		colE = scan.nextInt();
-		System.out.println();
 
 		multiTable(rowS, rowE, colS, colE);
 

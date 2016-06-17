@@ -14,7 +14,6 @@ public class MultiTable_row {
 		row = scan.nextInt();
 		System.out.print("列数を入力>>");
 		col = scan.nextInt();
-		System.out.println();
 		
 		multiTable(row,col);
 		

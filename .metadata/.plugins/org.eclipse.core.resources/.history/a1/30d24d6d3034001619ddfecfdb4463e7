@@ -8,13 +8,12 @@ public class MultiTable_row {
 		
 		Scanner scan = new Scanner(System.in);
 		int row,col;
-		System.out.println("九九表を表示します。");
+		
 		System.out.println("表示する段数と列数を入力してください。");
 		System.out.print("段数を入力>>");
 		row = scan.nextInt();
 		System.out.print("列数を入力>>");
 		col = scan.nextInt();
-		System.out.println();
 		
 		multiTable(row,col);
 		
