@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="2 個の要素を &apos;Java授業(UTF-8)/src/loop&apos; に移動&#x0D;&#x0A;- 元のプロジェクト: &apos;Java授業&apos;&#x0D;&#x0A;- 宛先要素: &apos;Java授業(UTF-8)/src/loop&apos;&#x0D;&#x0A;- オリジナル要素:&#x0D;&#x0A;     loop.PrintTriangle_hidariue.java&#x0D;&#x0A;     loop.PrintTriangle_migiue.java&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="コンパイル単位を移動" destination="=Java授業\(UTF-8)/src&lt;loop" element1="/src&lt;loop{PrintTriangle_hidariue.java" element2="/src&lt;loop{PrintTriangle_migiue.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1466728504424" units="2" version="1.0"/>
+</session>
